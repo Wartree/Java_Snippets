@@ -22,4 +22,12 @@ public class String_Basic {
 	}
 	
 	
+	public int String_Length() {
+		int stringLength;
+		
+		stringLength = stringA.length();
+		
+		return stringLength;
+	}
+	
 }

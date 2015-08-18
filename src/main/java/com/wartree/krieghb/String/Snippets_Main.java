@@ -11,6 +11,7 @@ public class Snippets_Main {
 
 		SB_A.Print_String();
 		
+		System.out.println("Size of string: " + SB_A.String_Length());
 	}
 
 }
