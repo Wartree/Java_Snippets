@@ -19,6 +19,7 @@ public class String_Basic {
 		
 		System.out.println(stringA); // Display the string.
 		
+		System.out.println("\n");
 	}
 	
 	
