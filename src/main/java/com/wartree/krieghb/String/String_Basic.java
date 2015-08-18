@@ -17,8 +17,8 @@ public class String_Basic {
 	
 	public void Print_String() {
 		
-		System.out.println(stringA); // Display the string.
-		
+		System.out.println("String:  " + stringA); // Display the string.
+		System.out.println("Length of String:  " + String_Length());
 	}
 	
 	
@@ -29,5 +29,4 @@ public class String_Basic {
 		
 		return stringLength;
 	}
-	
 }
