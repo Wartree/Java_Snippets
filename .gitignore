@@ -1,0 +1,8 @@
+/target/
+
+#  All class files
+*.class
+.classpath
+.project
+.settings/
+
