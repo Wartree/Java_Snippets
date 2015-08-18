@@ -9,16 +9,14 @@ public class Snippets_Main {
 
 		//  Basic Sring class usage
 		String_Basic SB_A = new String_Basic();
-
 		SB_A.Print_String();
 		
-		System.out.println("Size of string: " + SB_A.String_Length());
 		
+		System.out.println("\n");
 		
 		
 		String_Builder StrBld_A = new String_Builder();
-		
-		System.out.println("String Builder:  " + StrBld_A.myStringBuilder.toString());
+		StrBld_A.Print_StringBuilder();
 	}
 
 }
