@@ -1,14 +1,16 @@
 package com.wartree.krieghb.main;
 
 
+import com.wartree.krieghb.experiments.EStrings;
 import com.wartree.krieghb.utilities.Enum_Numbers;
 import com.wartree.krieghb.String.String_Basic;
 import com.wartree.krieghb.String.String_Builder;
 import com.wartree.krieghb.database.Main_jdbc;
 
 public class Snippets_Main {
-
+	
 	public static void main(String[] args) {
+
 
 		//  Basic Sring class usage
 		String_Basic SB_A = new String_Basic();
@@ -24,6 +26,8 @@ public class Snippets_Main {
 		
 		System.out.println("ENUM:  " + num.getValue());
 		System.out.println("Enum basic: " + Enum_Numbers.TWO.getValue());
+		
+		System.out.println(EStrings.STAR_SEPERATOR.getValue());
 		
 		
 		
