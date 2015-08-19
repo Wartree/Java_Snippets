@@ -2,18 +2,18 @@ package com.wartree.krieghb.experiments;
 
 public enum EStrings {
 	
-	ONE("Oy"),
+	OY("Oy"),
 	STAR_SEPERATOR("**************************************************");
 	
-	private final String value;
+	private final String stringVal;
 	
 	private EStrings(String myString) {
-		this.value = myString;
+		this.stringVal = myString;
 		
 	}
 	
-	public String getValue() {
-		return this.value;
+	public String value() {
+		return this.stringVal;
 	}
 
 }
