@@ -1,30 +1,48 @@
 package com.wartree.krieghb.String;
+import static com.wartree.krieghb.utilities.String_Constants.*;
 
 import java.lang.StringBuilder;
 
 public class String_Builder {
 	
-	public StringBuilder myStringBuilder = new StringBuilder();
+	public StringBuilder myStringBuilder;
 	
 	public String_Builder() {
 		
-		myStringBuilder.insert(0,"Hi There Everybody!");
-		Modify_String(myStringBuilder);
+		
+		
+		 myStringBuilder = new StringBuilder("Hi There Everybody!");
 		
 	}
 	
-	public void Print_StringBuilder() {
-
-		System.out.println("String Builder:  " + myStringBuilder.toString());
-		
-		System.out.println("Size of String Builder:  " + myStringBuilder.length());
-	}
-	
-	public void Modify_String(StringBuilder changeString) {
+	public void change_String(StringBuilder changeString) {
 		
 		changeString.replace(0, changeString.length(), "The string was changed");
 		
+	}
+	
+	// Printing String builder information
+	public void class_Printer() {
+
+		System.out.println("String Builder:  " + myStringBuilder.toString());
+		System.out.println("Size of String Builder:  " + myStringBuilder.length());
+		System.out.println("Capacity of String Builder:  " + myStringBuilder.capacity());
+		System.out.println();
+	}
+	
+	
+
+	public void executeSBTest() {
+		System.out.println(STAR_SEPERATOR);
+		System.out.println("Executing String Builder Test");
+		System.out.println(STAR_SEPERATOR);
 		
+		
+		class_Printer();
+
+		change_String(myStringBuilder);
+		
+		class_Printer();
 	}
 
 }
