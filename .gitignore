@@ -6,6 +6,8 @@
 .project
 .settings/
 
+.metadata/
+
 #  Package Files
 *.jar
 *.war
