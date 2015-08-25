@@ -24,9 +24,9 @@ public class Snippets_Main {
 		
 		Enum_Numbers num = Enum_Numbers.ONE;
 		
-		System.out.println("ENUM:  " + num.value());
+		System.out.println("ENUM:  " + num.value() + "::" + num);
+		System.out.println("ENUM non:  " + Enum_Numbers.TWENTY.value() + "::" + Enum_Numbers.TWENTY);
 		System.out.println("Enum basic: " + Enum_Numbers.TWO + " * " + Enum_Numbers.FOUR + " = " + Enum_Numbers.TWO.value() * Enum_Numbers.FOUR.value());
-		System.out.println(Enum_Numbers.valueOf(8));
 		System.out.println(EStrings.STAR_SEPERATOR.value());
 		
 		
