@@ -2,6 +2,7 @@ package com.wartree.krieghb.main;
 
 
 import com.wartree.krieghb.experiments.EStrings;
+import com.wartree.krieghb.utilities.String_Constants;
 import com.wartree.krieghb.utilities.Enum_Numbers;
 import com.wartree.krieghb.String.String_Basic;
 import com.wartree.krieghb.String.String_Builder;
@@ -30,8 +31,8 @@ public class Snippets_Main {
 		System.out.println(EStrings.STAR_SEPERATOR.value());
 
 
-		
-		
+
+
 		Database_MySQL newDB = new Database_MySQL();
 
 		String mainSchema = "v_test";
@@ -47,11 +48,12 @@ public class Snippets_Main {
 		newDB.connectToDb(url, username, password);
 
 		newDB.readFromDb("v_sng");
-		newDB.insertToDb(mainTable, column_list, input_list);
-		newDB.readFromDb("v_sng");
+//		newDB.insertToDb(mainTable, column_list, input_list);
+//		newDB.readFromDb("v_sng");
 
 		newDB.disconnectFromDb();
-		
+
+        System.out.println(String_Constants.END_OF_LINE);
 	}
 
 }
