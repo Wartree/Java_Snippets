@@ -16,4 +16,6 @@ public enum EStrings {
 		return this.stringVal;
 	}
 
+	//  Adding for commit
+
 }
